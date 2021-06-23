@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    /* padding: 0%;
+    margin: 0%; */
+}
+.container{
+    width:80%;
+    margin:0 auto;
+}
+.amico-img{
+display: flex;
+justify-content: center;
+}
+h3{
+    color:#2AB930 ;
+    text-align: center;
+}
+.h2-txt{
+    text-align: center;
+}
+
+.h3-2{
+    color: rgb(26, 24, 24);
+}
+
+p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 88%;
+    border-width: 1px;
+}
+.last-name, .first-name,.email-input,.password-input{
+    margin-bottom: 1em;
+}
+.confirm{
+    margin-bottom: 2em;
+}
+
+
+.email-input>input, .password-input>input, .last-name>input
+,.first-name>input,.confirm>input{
+padding:1em 1em;
+border-radius: 5px;
+
+}
+
+.login-btn>button{
+    width: 100%;
+    padding:1em 30%;
+    color:white;
+    /* font-size: 14px; */
+    background-color:#034AB3 ;
+    border-radius: 8px;
+    border-style: none;
+}
+.or-sign-up-with{
+    font-size: 12px;
+}
+
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+
+.google>img,.facebook>img,.twitter>img{
+    padding:0.7em;
+margin: 0.5em 1em;
+border-radius: 44%;
+background-color: #EAF1FB;
+}
+
+a{
+    color: #034AB3;
+    text-decoration: none;
+}
