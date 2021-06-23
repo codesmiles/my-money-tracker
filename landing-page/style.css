@@ -28,6 +28,11 @@ a{
 }
 .nav-links>a{
     margin:0 0.6em;
+    transition-property: font-size;
+    transition-duration:0.5s ;
+}
+.nav-links>a:hover{
+    font-size: 20px;
 }
 
 .login{
@@ -36,7 +41,8 @@ a{
     border-radius: 8px;
     align-items: center;
     padding: 12px 16px;
-   
+   transition-property: background-color;
+   transition-duration: 1s;
 }
 .login:hover{
     color: white;
@@ -49,7 +55,9 @@ a{
     padding: 12px 16px;
     margin-left: 1em;
     color: white;
-    /* border: thin; */
+    transition-property: background-color;
+    transition-duration: 1s;
+ 
 }
 .signup:hover{
     color:#1F2329;
@@ -469,6 +477,7 @@ form>input[placeholder]{
     position: relative;
     margin-left: 90%;  
 }
+
 .go-to-top{
     position: absolute;
     bottom:1.2em;

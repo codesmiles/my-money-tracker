@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquerystyle.css">
+    <script src="script.js"></script>
     <title>My Money Tracker</title>
 </head>
 
@@ -352,9 +353,9 @@
     
                         <h4>Subscribe for more info</h4>
                     
-                    <form action="submit">
-                        <input type="email" placeholder="Enter your email">
-                        <img src="image\email 2.svg" alt="" class="email-2">
+                    <form action="submit" id="formInput">
+                        <input type="email" placeholder="Enter your email" id="enter-email" required>
+                        <img src="image\email 2.svg" alt="" class="email-2" >
 
 
                             <div class="sub-btn">
@@ -373,7 +374,7 @@
             <div class="top">
 
                 <a href="#top">
-                    <img src="image\Rectangle 24.svg" alt="Rectangle">
+                    <img src="image\Rectangle 24.svg" alt="Rectangle" class="rectangle">
                     <img src="image\Group (2).svg" alt="Go to the top" class="go-to-top">
                 </a>
 
