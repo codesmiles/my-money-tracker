@@ -13,7 +13,8 @@
 nav{
     display: flex;
     justify-content:space-between;
-    margin-top: 1em;
+    
+    margin:1em 2em 0;
 }
 
 .logo>img{
@@ -134,16 +135,12 @@ a{
 .app{
 display: grid;
 grid-template-columns: auto auto;
-grid-column-gap: 0em;
+grid-column-gap: 1em;
 justify-content: center;
 
 }
 
 
- 
-.appstore{
-    margin-right: 1em;
-    }
 .appstore,.playstore{
         display:flex;
         align-items: center;

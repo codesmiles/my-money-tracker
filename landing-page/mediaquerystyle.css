@@ -113,7 +113,7 @@
     grid-template-columns:auto auto;
     margin: 0 auto;
     grid-row-gap: 3em;
-    /* width: 80%; */
+  
 
 }
 .transactions,.overview,.backup{
@@ -140,6 +140,9 @@
 
 .on-board{
     display: none;
+}
+nav{
+    margin:0;
 }
 
 }
