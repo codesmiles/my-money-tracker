@@ -10,38 +10,30 @@ const exitMenu = document.querySelector('.fl-x');
 const webViewNav = document.querySelector('nav')
 const mobileViewNav = document.querySelector('.newnav')
 
-let menuClose = false;
 
 
 menu.addEventListener("click", () => {
+    if(menu === false){
 
-  
-if (menu.value==!menuClose){
-    webViewNav.style.display = "none";
-    mobileViewNav.style.display = "block";
-    
-    menuOpen = true
-}
+    return false
+    }
+    else{
+        webViewNav.style.display = "none"
+        mobileViewNav.style.display ="block"
 
-else{
-    // webViewNav.style.display = "content";
-    mobileViewNav.style.display = "none";
-    
-    menuOpen = false
-}
+        return true;
+    }
 
 }); 
-// exitMenu.addEventListener('click', show())
 
-
-// function show(){
-//         if(menuOpen){
-//             webViewNav.style.display = "block";
-//             mobileViewNav.style.display = "block";
-//         }
-//         else{
-//             webViewNav.style.display = "block";
-//             mobileViewNav.style.display = "none";
-//         }
-//     }
+exitMenu.addEventListener("click", () => {
+    if(exitMenu === false){
+        return false
+    }
+    else{
+        mobileViewNav.style.display = "none"
+        webViewNav.style.display = "flex"
+        return true;
+    }
+})
 
