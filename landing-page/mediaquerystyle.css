@@ -56,7 +56,9 @@
             display: grid;
             grid-template-columns: auto;
         }
-    
+        .btn-submit{
+            transition-duration: 0.5s;
+        }
        
         .app{
            

@@ -132,7 +132,7 @@ a{
     padding: 12px 16px;
     color: #FFFFFF;
     border: thin;
-    transition-property: background-color,color;
+    transition-property: background-color, color;
     transition-duration: 2s;  
 }
 
