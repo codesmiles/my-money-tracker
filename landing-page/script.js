@@ -37,3 +37,6 @@ exitMenu.addEventListener("click", () => {
     }
 })
 
+// mobileViewNav.addEventListener('resize', () => {
+// mobileViewNav.style.display = "none"
+// })
