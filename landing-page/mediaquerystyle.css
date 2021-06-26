@@ -73,6 +73,10 @@
             border-radius: 8px;
             border: thin;        
         }
+
+        .app>a>button{
+        transition-duration: 0.2s;
+        }
 }
 
 
