@@ -22,40 +22,55 @@
 
 /* _____Nav section_____ come back to this LATER concerning grid/flexbox*/
 
-.newnav{
-    display: none;
-}
 nav{
     display: flex;
     justify-content:space-between;
-    margin:2em 0;
+    
+    margin:1em 2em 0;
+}
+
+.navlinks-onboard-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+
+
+
+.onboard-menu{
+    display: grid;
+    grid-template-columns:auto auto;
 }
 
 .logo>img{
     width:5.8em; 
 }
-
 a{
     text-decoration: none;
     color:#1F2329;
 }
 .nav-links{
     margin-top: 0.5em;
+    margin-right: 5em;
 }
 .nav-links>a{
-    
     margin:0 0.6em;
+    transition-property: font-size;
+    transition-duration:0.5s ;
 }
-.on-board>a{
-    font-weight: normal;
-    font-size: 14px;
+.nav-links>a:hover{
+    font-size: 20px;
 }
+
 .login{
     border: 2px solid #034AB3;
     box-sizing: border-box;
     border-radius: 8px;
     align-items: center;
     padding: 12px 16px;
+   transition-property: background-color;
+   transition-duration: 1s;
 }
 .login:hover{
     color: white;
@@ -68,6 +83,9 @@ a{
     padding: 12px 16px;
     margin-left: 1em;
     color: white;
+    transition-property: background-color;
+    transition-duration: 1s;
+ 
 }
 .signup:hover{
     color:#1F2329;
@@ -78,6 +96,7 @@ a{
 .menu{
     display: none;
 }
+
 
  @media screen and (max-width:765px) 
 {
